@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>MindCare - Home</title>
+    <title>MindCare - Chat</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -18,15 +18,18 @@
     </header>
 
     <main>
-        <section class="intro">
-            <h1>Welcome to MindCare</h1>
-            <p>Your mental health matters. Click below to start your personalized consultation.</p>
-            <a href="chat.html" class="btn">Start Chat</a>
+        <section id="chat-container">
+            <h2>Chat with MindCare</h2>
+            <div id="noupe-chat-widget"></div>
+
+            <script src="https://www.noupe.com/embed/01994ebfaaba79ae8abad96595ae996c8b05.js"></script>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 MindCare Mental Health Support. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

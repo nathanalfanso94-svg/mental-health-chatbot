@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body, h1, h2, p, a {
     margin: 0;
     padding: 0;
@@ -49,12 +48,26 @@ header nav a:hover {
 
 .intro p {
     font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #45a049;
 }
 
 #chat-container {
     background: white;
     max-width: 600px;
-    margin: 0 auto 40px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
